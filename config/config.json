@@ -1,0 +1,18 @@
+{
+  "sap_service_layer": {
+    "base_url": "https://your-sap-server:50000/b1s/v1",
+    "company_db": "SBODEMOUS",
+    "username": "manager",
+    "password": "your-password-here",
+    "verify_ssl": false
+  },
+  "doc_entry": 12345,
+  "comments": {
+    "base_url": "Service Layer URL (usually port 50000)",
+    "company_db": "SAP B1 Company Database name",
+    "username": "SAP B1 user with permissions to update orders",
+    "password": "User password",
+    "verify_ssl": "Set to false for test environments with self-signed certificates",
+    "doc_entry": "DocEntry of the Sales Order to update (start with a fixed value for testing)"
+  }
+}

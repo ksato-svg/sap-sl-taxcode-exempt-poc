@@ -1,0 +1,77 @@
+{
+  "odata.metadata": "https://sapserver:50000/b1s/v1/$metadata#Orders/@Element",
+  "odata.etag": "W/\"datetime'2024-01-15T10%3A30%3A00'\"",
+  "DocEntry": 12345,
+  "DocNum": 10001,
+  "DocType": "dDocument_Items",
+  "DocDate": "2024-01-15",
+  "DocDueDate": "2024-02-15",
+  "CardCode": "C00001",
+  "CardName": "Test Customer Ltd.",
+  "DocTotal": 15000.00,
+  "DocCurrency": "USD",
+  "DocumentStatus": "bost_Open",
+  "DocumentLines": [
+    {
+      "LineNum": 0,
+      "ItemCode": "ITEM001",
+      "ItemDescription": "Product A",
+      "Quantity": 10,
+      "Price": 100.00,
+      "Currency": "USD",
+      "TaxCode": "",
+      "WarehouseCode": "WH01",
+      "LineTotal": 1000.00
+    },
+    {
+      "LineNum": 1,
+      "ItemCode": "ITEM002",
+      "ItemDescription": "Product B",
+      "Quantity": 5,
+      "Price": 200.00,
+      "Currency": "USD",
+      "TaxCode": "VAT10",
+      "WarehouseCode": "WH01",
+      "LineTotal": 1000.00,
+      "TaxTotal": 100.00
+    },
+    {
+      "LineNum": 2,
+      "ItemCode": "ITEM003",
+      "ItemDescription": "Product C",
+      "Quantity": 20,
+      "Price": 50.00,
+      "Currency": "USD",
+      "TaxCode": null,
+      "WarehouseCode": "WH02",
+      "LineTotal": 1000.00
+    },
+    {
+      "LineNum": 3,
+      "ItemCode": "ITEM004",
+      "ItemDescription": "Product D",
+      "Quantity": 8,
+      "Price": 150.00,
+      "Currency": "USD",
+      "TaxCode": "EXEMPT",
+      "WarehouseCode": "WH01",
+      "LineTotal": 1200.00
+    },
+    {
+      "LineNum": 4,
+      "ItemCode": "ITEM005",
+      "ItemDescription": "Product E",
+      "Quantity": 15,
+      "Price": 80.00,
+      "Currency": "USD",
+      "TaxCode": " ",
+      "WarehouseCode": "WH02",
+      "LineTotal": 1200.00
+    }
+  ],
+  "AddressExtension": {
+    "ShipToStreet": "123 Main St",
+    "ShipToCity": "New York",
+    "ShipToCountry": "US"
+  }
+}
