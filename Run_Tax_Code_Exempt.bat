@@ -11,7 +11,7 @@ echo.
 :: ---------------------------------------------------
 where py >nul 2>&1
 if %ERRORLEVEL% neq 0 (
-    echo [ERROR] Python launcher (py) not found on PATH.
+    echo [ERROR] Python launcher ^(py^) not found on PATH.
     echo         Please install Python 3.x from https://www.python.org/
     pause
     exit /b 1
@@ -23,7 +23,7 @@ if %ERRORLEVEL% neq 0 (
 echo [1/2] Checking dependencies ...
 pip install --quiet --upgrade requests keyring
 if %ERRORLEVEL% neq 0 (
-    echo [WARN] pip install had issues — continuing anyway.
+    echo [WARN] pip install had issues -- continuing anyway.
 )
 echo       Done.
 echo.
